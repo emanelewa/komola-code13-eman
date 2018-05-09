@@ -1,0 +1,112 @@
+@font-face {
+    src:url("../fonts/OpenSans-Regular.ttf");
+    font-family:OpenSans-Regular;
+}
+@font-face {
+    src:url("../fonts/OpenSans-Bold.ttf");
+    font-family:OpenSans-Bold;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.site{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+/*header*/
+.site header{
+    height: auto;
+}
+.site header .header_top{
+    height: 781px;
+    overflow: hidden;
+    background-image: url("../images/header_bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.site header .header_top .head_data{
+    height: auto;
+    width: 920px;
+    overflow: hidden;
+    margin: 0 auto;
+    display:block;
+    text-align: center;
+    margin-top: 200px;
+}
+.site header .header_top .head_data h1{
+    font-family:OpenSans-Regular;
+    font-size: 50px;
+    color: white;
+}
+.site header .header_top .head_data p{
+    font-family:OpenSans-Regular;
+    font-size: 14px;
+    color: white;
+}
+.site header .header_top .head_data button{
+    font-family:OpenSans-Regular;
+    font-size: 14px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px 50px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.site header .header_top .head_data button:focus{
+    outline: none;
+}
+.site header .header_bottom{
+    height: 80px;
+    background-color: white;
+    border: 1px solid orange;
+    padding: 40px 160px 0 160px;
+}
+.site header .header_bottom .logo{
+    float: left;
+}
+.site header .header_bottom .menu{
+    float: right;
+    width: auto;
+    height: auto;
+    margin-top: 15px;
+}
+.site header .header_bottom .menu ul{
+    padding: 0;
+    margin: 0;
+}
+.site header .header_bottom .menu ul li{
+    list-style: none;
+    float: left;
+}
+.site header .header_bottom .menu ul li a{
+    font-family:OpenSans-Regular;
+    font-size: 14px;
+    color: #1f2c33;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+.site header .header_bottom .menu ul li a:hover{
+    background-color: #ed4f2e;
+    border-radius: 5px;
+    color: white;
+    font-family:OpenSans-Bold;
+    padding: 7px 15px;
+}
+
+.site header .header_bottom .menu ul li a:focus{
+    background-color: #ed4f2e;
+    border-radius: 5px;
+    color: white;
+    font-family:OpenSans-Bold;
+    padding: 7px 15px;
+}
+
