@@ -6,6 +6,14 @@
     src:url("../fonts/OpenSans-Bold.ttf");
     font-family:OpenSans-Bold;
 }
+@font-face {
+    src: url("../fonts/OpenSans-Semibold.ttf");
+    font-family: OpenSans-Semibold;
+}
+@font-face {
+    src: url("../fonts/OpenSans-Light.ttf");
+    font-family: OpenSans-Light;
+}
 
 
 body{
@@ -68,7 +76,7 @@ body{
     height: 80px;
     background-color: white;
     border: 1px solid orange;
-    padding: 40px 160px 0 160px;
+    padding: 30px 160px 0 160px;
 }
 .site header .header_bottom .logo{
     float: left;
@@ -109,4 +117,352 @@ body{
     font-family:OpenSans-Bold;
     padding: 7px 15px;
 }
+/*Services******/
+.site .Services{
+    height: auto;
+    background-color: #ebebeb;
+    padding: 50px 130px;
+}
+.site .Services .Our_Services{
+    background-color: white;
+    height: 765px;
+    margin: 0 auto;
+    border-radius: 50px 50px 0 0;
+    padding: 100px 90px;
 
+}
+.site .Services .Our_Services .Services_data{
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.site .Services .Our_Services .Services_data h1{
+    font-family: OpenSans-Semibold;
+    color: #ed4f2e;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.site .Services .Our_Services .Services_data p{
+    font-family:OpenSans-Regular;
+    color: #1f2c33;
+    font-size: 14px;
+    width: 550px;
+    display: inline-block;
+}
+.site .Services .Our_Services .Services_data img{
+    display: block;
+    margin: 0 auto;
+}
+.site .Services .Our_Services .Service{
+    height: auto;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.site .Services .Our_Services .Service .box{
+    width: 289px;
+    height: 190px;
+    float: left;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 40px;
+}
+.site .Services .Our_Services .Service .box:nth-child(3), .site .Services .Our_Services .Service .box:nth-child(6){
+    margin-right: 0;
+    float: right;
+}
+.site .Services .Our_Services .Service .box i{
+    color: #1f2c33;
+    margin-bottom: 0;
+    transition: all 0.5s;
+}
+.site .Services .Our_Services .Service .box:hover i{
+    color: #ed4f2e;
+}
+.site .Services .Our_Services .Service .box h1 a{
+    font-size: 25px;
+    font-family:OpenSans-Regular;
+    color: #1f2c33;
+    margin-bottom: 0;
+    transition: all 0.5s;
+    text-decoration: none;
+    font-weight: normal;
+}
+.site .Services .Our_Services .Service .box h1{
+    margin: 5px 0;
+}
+
+.site .Services .Our_Services .Service .box:hover h1 a{
+    color: #ed4f2e;
+}
+
+.site .Services .Our_Services .Service .box p{
+    font-size: 14px;
+    font-family:OpenSans-Regular;
+    color: #4f4f4f;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
+/*pricing*****/
+.site .pricing{
+    height: auto;
+    background-color: #ebebeb;
+    padding: 50px 130px;
+}
+.site .pricing .Simple_pricing{
+    background-color: white;
+    height: 1020px;
+    margin: 0 auto;
+    border-radius: 0 0 50px 50px;
+    padding: 0 90px;
+}
+.site .pricing .Simple_pricing .pricing_data{
+    height: auto;
+    border: 1px solid red;
+    width: auto;
+    text-align: center;
+}
+.site .pricing .Simple_pricing .pricing_data h1{
+    font-family: OpenSans-Semibold;
+    color: #ed4f2e;
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+.site .pricing .Simple_pricing .pricing_data p{
+    font-family:OpenSans-Regular;
+    color: #1f2c33;
+    font-size: 14px;
+    width: 550px;
+    display: inline-block;
+}
+.site .pricing .Simple_pricing .pricing_data img{
+    display: block;
+    margin: 0 auto;
+}
+.site .pricing .Simple_pricing .packages{
+    height: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    padding: 30px 0;
+}
+.site .pricing .Simple_pricing .packages .package{
+    width: 205px;
+    height: 610px;
+    border: 1px solid #ebebeb;
+    float: left;
+    text-align: center;
+    margin-left: 17px;
+    position: relative;
+    transition: all 0.5s;
+}
+.site .pricing .Simple_pricing .packages .package:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border: 1px solid #ed4f2e;
+
+}
+.site .pricing .Simple_pricing .packages .package:last-child{
+
+}
+.site .pricing .Simple_pricing .packages .package h1{
+    font-family: OpenSans-Semibold;
+    color: #1f2c33;
+    font-size: 25px;
+    margin: 20px 0;
+}
+.site .pricing .Simple_pricing .packages .package .price{
+    background-color: #ebebeb;
+    height: 90px;
+    text-align: center;
+    transition: all 1s;
+}
+.site .pricing .Simple_pricing .packages .package:hover .price{
+    background-color: #ed4f2e;
+}
+.site .pricing .Simple_pricing .packages .package .price p{
+    color: #1f2c33;
+    font-family: OpenSans-Semibold;
+    font-size: 45px;
+    line-height: 85px;
+    margin-top: 0;
+}
+.site .pricing .Simple_pricing .packages .package:hover .price p{
+    color: white;
+}
+
+.site .pricing .Simple_pricing .packages .package .price p small{
+    font-family:OpenSans-Regular;
+    color: #1f2c33;
+    font-size: 24px;
+}
+.site .pricing .Simple_pricing .packages .package:hover .price p small{
+    color: white;
+}
+.site .pricing .Simple_pricing .packages .package p{
+    color: #4f4f4f;
+    font-size: 14px;
+    font-family:OpenSans-Regular;
+    width: 180px;
+    margin: 35px auto;
+    line-height: 40px;
+}
+.site .pricing .Simple_pricing .packages .package button{
+    font-family:OpenSans-Regular;
+    background-color: #ed4f2e;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 45px;
+    right: 50px;
+    padding: 8px 17px;
+}
+
+/*Registration****/
+.site .Registration{
+    height: 430px;
+    border: 1px solid red;
+    background-image: url("../images/regestratiob_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.site .Registration .Registration_data{
+    text-align: center;
+    margin: 120px auto;
+    height: auto;
+}
+.site .Registration .Registration_data h3{
+    font-family:OpenSans-Regular;
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+}
+.site .Registration .Registration_data h1{
+    font-family:OpenSans-Bold;
+    color: white;
+    font-size: 35px;
+    margin-top: 0;
+}
+.site .Registration .Registration_data button{
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family:OpenSans-Regular;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.site .Registration .Registration_data button:hover{
+    background-color: #ed4f2e;
+}
+.site .Registration .Registration_data button:focus{
+    background-color: #ed4f2e;
+    outline: none;
+}
+.site .Registration .Registration_data button i{
+    margin-left: 10px;
+}
+/*contact_us******/
+.site .contact_us{
+    height: auto;
+    background-color: #ebebeb;
+    padding: 50px 130px;
+}
+.site .contact_us .contact{
+    background-color: white;
+    height: 890px;
+    margin: 0 auto;
+    border-radius: 0 0 50px 50px;
+    padding: 100px 90px;
+}
+.site .contact_us .contact .contact_data{
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.site .contact_us .contact .contact_data h1{
+    font-family: OpenSans-Semibold;
+    color: #ed4f2e;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.site .contact_us .contact .contact_data p{
+    font-family:OpenSans-Regular;
+    color: #1f2c33;
+    font-size: 14px;
+    width: 550px;
+    display: inline-block;
+}
+.site .contact_us .contact .contact_data img{
+    display: block;
+    margin: 0 auto;
+}
+.site .contact_us .contact .data{
+    height: auto;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.site .contact_us .contact .data input{
+    height: 20px;
+    padding: 20px;
+    border-radius:10px;
+    border: 1px solid #cccccc;
+    width: 395px;
+    float: left;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+.site .contact_us .contact .data input:focus{
+    border:1px solid #ed4f2e ;
+    outline: none;
+}
+.site .contact_us .contact .data input:nth-child(2), .site .contact_us .contact .data input:nth-child(4){
+    float: right;
+}
+.site .contact_us .contact .data input::placeholder{
+    font-family: OpenSans-Light;
+    color: #1f2c33;
+    font-size: 14px;
+}
+.site .contact_us .contact .data textarea{
+    width: 863px;
+    height: 300px;
+    padding: 20px;
+    border-radius:10px;
+    border: 1px solid #cccccc;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+.site .contact_us .contact .data textarea::placeholder{
+    font-family: OpenSans-Light;
+    color: #1f2c33;
+    font-size: 14px;
+}
+.site .contact_us .contact .data textarea:focus{
+    border:1px solid #ed4f2e ;
+    outline: none;
+}
+.site .contact_us .contact .data .data_bu{
+    height: auto;
+    overflow: auto;
+    text-align: center;
+}
+.site .contact_us .contact .data .data_bu button{
+    padding: 10px 40px;
+    background: #ed4f2e;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    font-family:OpenSans-Bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.site .contact_us .contact .data .data_bu button:focus{
+    outline: none;
+}
