@@ -14,6 +14,10 @@
     src: url("../fonts/OpenSans-Light.ttf");
     font-family: OpenSans-Light;
 }
+@font-face {
+    src: url("../fonts/radiospace.ttf");
+    font-family: radiospace;
+}
 
 
 body{
@@ -465,4 +469,173 @@ body{
 }
 .site .contact_us .contact .data .data_bu button:focus{
     outline: none;
+}
+/*footer****/
+.site footer{
+    height: auto;
+    overflow: hidden;
+}
+.site footer .top_footer{
+    overflow: hidden;
+    background-color: #1f2c33;
+    margin: 0 auto;
+    padding: 100px 90px;
+}
+.site footer .top_footer .data_footer{
+    overflow: hidden;
+    height: auto;
+}
+.site footer .top_footer .data_footer .about{
+    float: left;
+    width: 268px;
+    height: auto;
+    margin-right: 30px;
+}
+.site footer .top_footer .data_footer .about h2{
+    font-size: 20px;
+    color: white;
+    font-family:OpenSans-Bold;
+    margin: 0;
+}
+.site footer .top_footer .data_footer .about h1{
+    font-size: 42px;
+    color: #ed4f2e;
+    font-family: radiospace;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.site footer .top_footer .data_footer .about p{
+    font-size: 14px;
+    color: #a3b1bf;
+    font-family: "Myriad Pro";
+    text-align: left;
+    margin-top: 10px;
+}
+.site footer .top_footer .data_footer .touch{
+    float: left;
+    width: 268px;
+    height: auto;
+    margin-right: 30px;
+}
+.site footer .top_footer .data_footer .touch h2{
+    font-size: 20px;
+    color: white;
+    font-family:OpenSans-Bold;
+    margin: 0;
+}
+.site footer .top_footer .data_footer .touch p{
+    font-size: 14px;
+    color: #a3b1bf;
+    font-family: "Myriad Pro";
+    text-align: left;
+    margin-top: 20px;
+}
+.site footer .top_footer .data_footer .touch ul{
+    padding: 0;
+    margin-top: 10px;
+}
+.site footer .top_footer .data_footer .touch ul li{
+    list-style: none;
+    font-size: 14px;
+    color: #a3b1bf;
+    font-family: "Myriad Pro";
+}
+.site footer .top_footer .data_footer .works{
+    float: left;
+    width: 268px;
+    height: auto;
+    margin-right: 10px;
+}
+.site footer .top_footer .data_footer .works h2{
+    font-size: 20px;
+    color: white;
+    font-family:OpenSans-Bold;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.site footer .top_footer .data_footer .works img{
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.site footer .top_footer .data_footer .Subscribe{
+    float: right;
+    width: 268px;
+    height: auto;
+    margin-right: 0;
+}
+.site footer .top_footer .data_footer .Subscribe h2{
+    font-size: 20px;
+    color: white;
+    font-family:OpenSans-Bold;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.site footer .top_footer .data_footer .Subscribe p{
+    font-size: 14px;
+    color: #a3b1bf;
+    font-family: "Myriad Pro";
+    text-align: left;
+    margin-top: 20px;
+}
+.site footer .top_footer .data_footer .Subscribe input:focus{
+    outline: none;
+}
+.site footer .top_footer .data_footer .Subscribe input[type="text"]{
+    background-color: #404b51;
+    border-radius: 3px;
+    padding: 10px;
+    border: none;
+    width: 160px;
+    float: left;
+}
+.site footer .top_footer .data_footer .Subscribe input[type="text"]::placeholder{
+    color: #a3b1bf;
+    font-family: OpenSans-Light;
+    font-size: 14px;
+}
+.site footer .top_footer .data_footer .Subscribe input[type="submit"]{
+    background-color: #ed4f2e;
+    border-radius: 3px;
+    padding:8px 10px;
+    border: none;
+    color: white;
+    font-family:OpenSans-Bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.site footer .top_footer .data_footer .Subscribe span{
+    margin-top: 30px;
+    margin-right: 10px;
+    color: white;
+    font-weight: normal;
+    transition: all 1s;
+}
+.site footer .top_footer .data_footer .Subscribe span:hover{
+    color: #ed4f2e;
+}
+.site footer .top_footer .data_footer .Subscribe span:last-child{
+    float: right;
+    margin-right: 0;
+}
+.site footer .top_footer .data_footer .Subscribe span a i{
+    color: white;
+    font-weight: normal;
+    transition: all 1s;
+}
+.site footer .top_footer .data_footer .Subscribe span a i:hover{
+    color: #ed4f2e;
+}
+
+.site footer .bottom_footer{
+    overflow: hidden;
+    background-color: #283645;
+    height: 80px;
+}
+.site footer .bottom_footer p{
+    color: white;
+    font-size: 14px;
+    font-family:OpenSans-Regular;
+    text-align: center;
+    line-height: 45px;
 }
