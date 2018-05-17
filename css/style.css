@@ -20,6 +20,8 @@
 }
 
 
+
+
 body{
     margin: 0;
     padding: 0;
@@ -35,6 +37,8 @@ body{
 /*header*/
 .site header{
     height: auto;
+    width: 100%;
+    margin-bottom: 50px;
 }
 .site header .header_top{
     height: 781px;
@@ -126,14 +130,15 @@ body{
     height: auto;
     background-color: #ebebeb;
     padding: 50px 130px;
+    margin-top: 50px;
 }
 .site .Services .Our_Services{
     background-color: white;
-    height: 765px;
+    height: auto;
     margin: 0 auto;
     border-radius: 50px 50px 0 0;
     padding: 100px 90px;
-
+    overflow: hidden;
 }
 .site .Services .Our_Services .Services_data{
     height: auto;
@@ -207,6 +212,20 @@ body{
     margin-bottom: 0;
 }
 
+/*video_sec******/
+.site .video_sec{
+    height: 587px;
+    background-image: url("../images/video_bg.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+}
+.site .video_sec a img{
+    position: absolute;
+    bottom:251px;
+    left: 620px;
+
+}
+
 
 /*pricing*****/
 .site .pricing{
@@ -219,11 +238,10 @@ body{
     height: 1020px;
     margin: 0 auto;
     border-radius: 0 0 50px 50px;
-    padding: 0 90px;
+    padding: 50px 90px;
 }
 .site .pricing .Simple_pricing .pricing_data{
     height: auto;
-    border: 1px solid red;
     width: auto;
     text-align: center;
 }
@@ -329,21 +347,20 @@ body{
 /*Registration****/
 .site .Registration{
     height: 430px;
-    border: 1px solid red;
     background-image: url("../images/regestratiob_bg.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
 .site .Registration .Registration_data{
     text-align: center;
-    margin: 120px auto;
-    height: auto;
+    padding-top: 110px;
 }
 .site .Registration .Registration_data h3{
     font-family:OpenSans-Regular;
     color: white;
     font-size: 25px;
     font-weight: normal;
+    margin-top: 0;
 }
 .site .Registration .Registration_data h1{
     font-family:OpenSans-Bold;
@@ -372,6 +389,87 @@ body{
 .site .Registration .Registration_data button i{
     margin-left: 10px;
 }
+
+/*customers***/
+.site .customers{
+    height: 516px;
+    margin-top: 50px;
+}
+.site .customers .happy_customers{
+    width: 413px;
+    height: 200px;
+    background-image: url("../images/CUSTOMERS.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    padding: 160px 130px;
+}
+.site .customers .happy_customers .customers_data{
+    height: auto;
+}
+.site .customers .happy_customers .customers_data h1{
+    color: white;
+    font-family: OpenSans-Semibold;
+    font-size: 35px;
+    margin:0 ;
+    text-align: center;
+}
+.site .customers .happy_customers .customers_data p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family:OpenSans-Regular;
+    margin-top: 20px;
+}
+.site .customers .subscripe{
+    width: 414px;
+    height: 200px;
+    background-image: url("../images/CUSTOMERS_2.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    padding: 160px 130px;
+}
+.site .customers .subscripe .sub_data{
+    height: auto;
+}
+.site .customers .subscripe .sub_data h1{
+    color: white;
+    font-family: OpenSans-Semibold;
+    font-size: 35px;
+    margin:0 ;
+    text-align: center;
+}
+.site .customers .subscripe .sub_data input{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 370px;
+    margin-top: 20px;
+}
+.site .customers .subscripe .sub_data input:focus{
+    outline: none;
+    border: 1px solid #ed4f2e;
+}
+.site .customers .subscripe .sub_data input::placeholder{
+    color: white;
+    font-size: 14px;
+    font-family:OpenSans-Regular;
+}
+.site .customers .subscripe .sub_data button{
+    background-color:#ed4f2e ;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    outline: none;
+    font-size: 14px;
+    font-family:OpenSans-Bold;
+    border: none;
+    margin: 0 auto;
+    display:block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
 /*contact_us******/
 .site .contact_us{
     height: auto;
