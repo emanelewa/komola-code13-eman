@@ -83,7 +83,6 @@ body{
 .site header .header_bottom{
     height: 80px;
     background-color: white;
-    border: 1px solid orange;
     padding: 30px 160px 0 160px;
 }
 .site header .header_bottom .logo{
@@ -390,10 +389,78 @@ body{
     margin-left: 10px;
 }
 
+/*projects****/
+.site .projects{
+    height: auto;
+    background-color: #ebebeb;
+    padding: 50px 130px;
+}
+.site .projects .our_projects{
+    background-color: white;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50px 50px 0 0;
+    padding: 100px 90px;
+    overflow: hidden;
+}
+.site .projects .our_projects .projects_data{
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.site .projects .our_projects .projects_data h1{
+    font-family: OpenSans-Semibold;
+    color: #ed4f2e;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.site .projects .our_projects .projects_data p{
+    font-family: OpenSans-Regular;
+    color: #1f2c33;
+    font-size: 14px;
+    width: 550px;
+    display: inline-block;
+}
+.site .projects .our_projects .projects_data img{
+    display: block;
+    margin: 0 auto;
+}
+.container .mix{
+    display: inline-block;
+}
+
+.container .mix img{
+    border: 3px solid #eeeeee;
+    border-radius: 5px;
+}
+
+.site .projects .our_projects .gallery{
+    text-align: center;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.site .projects .our_projects .gallery button{
+    background-color: white;
+    color: #1f2c33;
+    font-size: 14px;
+    font-family: OpenSans-Semibold;
+    outline: none;
+    border: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+    text-align: center;
+    padding: 7px 20px;
+}
+.site .projects .our_projects .gallery button:hover, .site .projects .our_projects .gallery button:focus{
+    background-color: #ed4f2e;
+    color: white;
+    border-radius: 3px;
+
+}
+
 /*customers***/
 .site .customers{
     height: 516px;
-    margin-top: 50px;
 }
 .site .customers .happy_customers{
     width: 413px;
