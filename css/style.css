@@ -516,17 +516,18 @@ body{
 .site .customers .subscripe .sub_data input:focus{
     outline: none;
     border: 1px solid #ed4f2e;
+    color: white;
 }
 .site .customers .subscripe .sub_data input::placeholder{
     color: white;
     font-size: 14px;
     font-family:OpenSans-Regular;
 }
-.site .customers .subscripe .sub_data button{
+.site .customers .subscripe .sub_data input[type="submit"]{
     background-color:#ed4f2e ;
     border-radius: 5px;
     color: white;
-    padding: 10px 30px;
+    padding: 10px;
     outline: none;
     font-size: 14px;
     font-family:OpenSans-Bold;
@@ -535,6 +536,7 @@ body{
     display:block;
     margin-top: 20px;
     cursor: pointer;
+    width: 100px;
 }
 
 /*contact_us******/
@@ -577,7 +579,7 @@ body{
     overflow: hidden;
     margin-top: 100px;
 }
-.site .contact_us .contact .data input{
+.site .contact_us .contact .data input[type="text"], .site .contact_us .contact .data input[type="email"] {
     height: 20px;
     padding: 20px;
     border-radius:10px;
@@ -617,24 +619,22 @@ body{
     border:1px solid #ed4f2e ;
     outline: none;
 }
-.site .contact_us .contact .data .data_bu{
-    height: auto;
-    overflow: auto;
-    text-align: center;
-}
-.site .contact_us .contact .data .data_bu button{
-    padding: 10px 40px;
-    background: #ed4f2e;
-    border:none;
+.site .contact_us .contact .data input[type="submit"]{
+    background-color: #ed4f2e;
     border-radius: 5px;
     color: white;
-    font-family:OpenSans-Bold;
-    font-size: 14px;
-    cursor: pointer;
-}
-.site .contact_us .contact .data .data_bu button:focus{
+    padding: 10px 30px;
     outline: none;
+    font-size: 14px;
+    font-family: OpenSans-Bold;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100px;
 }
+
 /*footer****/
 .site footer{
     height: auto;
@@ -769,26 +769,34 @@ body{
     font-size: 14px;
     cursor: pointer;
 }
-.site footer .top_footer .data_footer .Subscribe span{
+
+.site footer .top_footer .data_footer .Subscribe .foot_social{
+    width: 266px;
+    height: auto;
+    overflow: hidden;
+}
+
+.site footer .top_footer .data_footer .Subscribe .foot_social span{
     margin-top: 30px;
-    margin-right: 10px;
     color: white;
+    margin-right: 13px;
     font-weight: normal;
     transition: all 1s;
+    float: left;
 }
-.site footer .top_footer .data_footer .Subscribe span:hover{
+.site footer .top_footer .data_footer .Subscribe .foot_social span:hover{
     color: #ed4f2e;
 }
-.site footer .top_footer .data_footer .Subscribe span:last-child{
+.site footer .top_footer .data_footer .Subscribe .foot_social span:last-child {
     float: right;
     margin-right: 0;
 }
-.site footer .top_footer .data_footer .Subscribe span a i{
+.site footer .top_footer .data_footer .Subscribe .foot_social span a i{
     color: white;
     font-weight: normal;
     transition: all 1s;
 }
-.site footer .top_footer .data_footer .Subscribe span a i:hover{
+.site footer .top_footer .data_footer .Subscribe .foot_social span a i:hover{
     color: #ed4f2e;
 }
 
